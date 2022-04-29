@@ -15,7 +15,7 @@ public class jtype {
         System.out.println("Introduce la ruta del fichero");
         
         ruta=teclado.nextLine();
-        
+        /*ponemos un comentario para ver si se realiza un commit*/
         try(FileReader lector=new FileReader(ruta);
                 BufferedReader leer= new BufferedReader(lector)){
             String linea=leer.readLine();
